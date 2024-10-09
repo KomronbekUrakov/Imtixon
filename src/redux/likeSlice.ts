@@ -1,27 +1,37 @@
-// import { createSlice } from "@reduxjs/toolkit";
+// redux/likeSlice.js
+import { createSlice } from "@reduxjs/toolkit";
+interface Product {
+    id: number;
+    api_featured_image: string;
+    name: string;
+    price_sign: string;
+    price: number;
+  }
+const initialState = {
+    likedProducts: JSON.parse(localStorage.getItem("Like") ?? "[]") || [],
+};
 
-// const initialState = {
-//   likes: JSON.parse(localStorage.getItem("likedProducts") ?? "[]") || [],
-// };
+const likeSlice = createSlice({
+  name: "like",
+  initialState,
+  reducers: {
+    likedProduct: (state, action) => {
+      const product = action.payload;
+      const exists = state.likedProducts.find((item:Product) => item.id === product.id);
 
-// const likeSlice = createSlice({
-//   name: "like",
-//   initialState,
-//   reducers: {
-//     likedProduct: (state, action) => {
-//       const existingProductIndex = state.likes.findIndex(
-//         (product: { id: any }) => product.id === action.payload.id
-//       );
+      if (!exists) {
+        state.likedProducts.push(product);
+        localStorage.setItem("Like", JSON.stringify(state.likedProducts));
+      }
+    },
+    removeLikedProduct: (state, action) => {
+      state.likedProducts = state.likedProducts.filter(
+        (product:Product) => product.id !== action.payload
+      );
+      localStorage.setItem("Like", JSON.stringify(state.likedProducts));
+    },
+  },
+});
 
-//       if (existingProductIndex === -1) {
-//         state.likes.push(action.payload);
-//       } else {
-//         state.likes.splice(existingProductIndex, 1);
-//       }
-//       localStorage.setItem("likedProducts", JSON.stringify(state.likes));
-//     },
-//   },
-// });
-
-// export const { likedProduct } = likeSlice.actions;
-// export { likeSlice };
+export const { likedProduct, removeLikedProduct } = likeSlice.actions;
+export default likeSlice.reducer;

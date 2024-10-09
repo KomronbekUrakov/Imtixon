@@ -1,11 +1,15 @@
-.liked-product {
+.liked-products {
   margin-top: 80px;
-  display: flex;
-  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
-
+.liked-products-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
 .liked-products-card-title {
   font-family: "Sofia Sans", sans-serif;
   font-size: 20px;
@@ -35,4 +39,18 @@
 
 .liked-products-card-add-btn:active {
   fill: #636262;
+}
+.RemoveBtn{
+  border: none;
+  background: none;
+}
+
+.bi-heartbreak-fill:hover{
+  fill: #FF0000;
+}
+.MiniWrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

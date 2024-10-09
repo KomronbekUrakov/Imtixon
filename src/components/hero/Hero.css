@@ -5,7 +5,7 @@
 
 .hero-img {
   z-index: 1;
-  width: 940px;
+  width: 864px;
   height: 586px;
   background-image: url("https://images.ctfassets.net/eoaaqxyywn6o/6YHtbyv9EhTTtXMv1h7UJ0/23493e19313777ada9fe69c8c8a24b42/Hero-Banner_Celestial_Launch_Grid.gif");
   background-position: 50%;
@@ -15,11 +15,13 @@
 }
 
 .hero-banner {
+  width: 518.39px;
+  height: 330px;
   margin-left: -100px;
   bottom: 30px;
   z-index: 2;
   padding: 76px;
-  background-color: rgb(213, 161, 255);
+  background-color: rgb(246, 246, 246);
 }
 
 .hero-banner_title {

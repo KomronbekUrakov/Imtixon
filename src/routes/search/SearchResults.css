@@ -1,0 +1,16 @@
+.SearchResults{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+}
+.ProductCard{
+    width: 290px;
+    height: 400px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}

@@ -17,7 +17,7 @@
 .header-menu {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   padding: 5px 0;
   background-color: #e6e6e6;
 }
@@ -117,4 +117,15 @@
 
 .cart-link:hover {
   fill: #949494;
+}
+.SeachBtn{
+  display: none;
+}
+.FromSerach > input{
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  width: 850px;
+  padding: 10px;
 }

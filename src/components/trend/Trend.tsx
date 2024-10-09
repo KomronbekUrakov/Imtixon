@@ -10,16 +10,15 @@ const Trend : React.FC = () => {
             <img
               className="trend-image"
               width={"440px"}
-              src="https://images.ctfassets.net/eoaaqxyywn6o/4FUZGa67ZaOqtjhXPiR1vj/33847addd23900e454228b210ef09b98/Trading_Trio-UK.jpeg"
+              src="https://images.ctfassets.net/eoaaqxyywn6o/1XpGPdbD2Fl587BAdGShC1/a73ab469e13d63dc48a932cc0e4df5f9/Trading-Trio_Celestial_Launch.gif"
               alt=""
             />
             <div className="trend-block-content">
               <h3 className="trend-block-content_title">
-                Minimal effort, maximum glow
+              Colours of the cosmos
               </h3>
               <p className="trend-block-content_message">
-                Prepare for radiant results with the By BEAUTY BAY Liquid
-                Highlighters
+              Your ethereal side is calling. Go beyond with the new By BEAUTY BAY Celestial Charms Collection.
               </p>
               <div className="trend-block-content-btn">
                 <span>SHOP NOW</span>

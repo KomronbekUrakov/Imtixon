@@ -5,7 +5,7 @@ import Cream from "./routes/cream/Cream";
 import Products from "./routes/products/Products";
 import SingleProduct from "./routes/singleProduct/singleProduct";
 import Pencil from "./routes/pencil/Pencil";
-import Palette from "./routes/palette/Palette.tsx";
+import Palette from "./routes/palette/Palettepage";
 import Footer from "./components/footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import LikedProducts from "./routes/like/LikedProducts"

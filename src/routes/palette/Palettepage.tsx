@@ -16,7 +16,7 @@ interface Product {
   liked?: boolean;
 }
 
-const Palette: React.FC = () => {
+const Palettepage: React.FC = () => {
   const dispatch = useDispatch();
   const {
     data: products = [],
@@ -154,4 +154,4 @@ const Palette: React.FC = () => {
   );
 };
 
-export default Palette;
+export default Palettepage;

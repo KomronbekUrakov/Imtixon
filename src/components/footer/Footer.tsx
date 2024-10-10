@@ -383,6 +383,34 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
+        <p className="FotterCopyrigth">Copyright © 2024 BEAUTY BAY Ltd.</p>
+        <p className="FotterCopyrigth2">Registered office address Level 12, 5 Exchange Quay, M5 3EF. Registered in England, company registration number 6427672, VAT number GB 927197591.</p>
+      <div className="PayOptionWrap">
+        <Link to="">
+        <img className="PayOpt" width={98} height={24} src="https://images.ctfassets.net/eoaaqxyywn6o/6rDEb4sJOBkiIga3rkaSfA/b705c283f12f64d22365f9d168d2e9be/PayPal.svg"  alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" width={62} height={25} src="https://images.ctfassets.net/eoaaqxyywn6o/y8QrCXyaUnAPeqGSkYBXT/dcd21c778833eed8062c9707784ea812/Klarna.svg" alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" src="https://images.ctfassets.net/eoaaqxyywn6o/2fVeO7f2x78KlbQuhqmuVb/a195d07a55c2bb8e1f595d5b541d4d79/Clearpay.svg" width={100} height={24} alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" width={39} height={25} src="https://images.ctfassets.net/eoaaqxyywn6o/10YPF40EuGghbMiM8dvfZ4/604c660dfd975959ded92967d5acdd68/Apple.svg" alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" width={71} height={23} src="https://images.ctfassets.net/eoaaqxyywn6o/4QTzSyV3E2jIfll4u3GgIW/46acc6659798376dc8bb416454f2baba/Visa.svg" alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" width={25} height={25} src="https://images.ctfassets.net/eoaaqxyywn6o/1R0NBLVCShxTQNVHNjanE4/c970e9e15ecbb026929000ae3fcce6ae/Amex.svg" alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" width={41} height={26} src="https://images.ctfassets.net/eoaaqxyywn6o/5bs4r6UiioP3Fkj4Qg35o8/5583c0ecc4b6500a1083fd38cfabf6dc/Mastercard.svg" alt="" />
+        </Link>
+        <Link to="">
+        <img className="PayOpt" width={117} height={25} src="https://images.ctfassets.net/eoaaqxyywn6o/5IdXqCmgjNCVwZNyssRsdE/702c37ee931258aad2071e063bbd337e/Maestro.svg" alt="" />
+        </Link>
+      </div>
       </div>
     </div>
   </div>

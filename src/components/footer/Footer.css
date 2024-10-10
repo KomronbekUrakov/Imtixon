@@ -76,3 +76,24 @@
 .footer-list-link:hover {
   border-bottom: 1px solid #000;
 }
+.FotterCopyrigth{
+  margin-top: 44px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.FotterCopyrigth2{
+  text-align: center;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
+}
+.PayOpt{
+  margin: 28.8px;
+}
+.PayOptionWrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12.8px 0 12.8px;
+}

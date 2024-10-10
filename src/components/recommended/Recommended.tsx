@@ -9,8 +9,8 @@ export const Recommended : React.FC = () => {
           <div className="recommended-block">
             <img
               className="recommended-image"
-              width={"320px"}
-              height={"260px"}
+              width={320}
+              height={260}
               src="https://images.ctfassets.net/eoaaqxyywn6o/3Hqi2hsaVdB689SbuBJCpj/3ff0ff24026bc3bc68700889eb6cdf65/PL-Carousel.gif"
               alt=""
             />
